@@ -1,0 +1,1 @@
+Notes to take along the project
