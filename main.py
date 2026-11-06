@@ -7,10 +7,10 @@ pitLoss = 20            # seconds lost in the pits
 #-----------------------------------
 
 def tyre1(laps):        # tyre 1 definition
-    time = laps*(tLap0[1] + deg[1]*(laps-1))
+    time = laps*(tLap0[0] + deg[0]*(laps-1))
     return time
 def tyre2(laps):        # tyre 2 definition
-    time = laps*(tLap0[2] + deg[2]*(laps-1))
+    time = laps*(tLap0[1] + deg[1]*(laps-1))
     return time
 
 # Define function that calculates total race time
